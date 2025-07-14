@@ -1,0 +1,196 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.btn-close-lab5 {
+    --bs-btn-close-color: #000;
+    --bs-btn-close-bg: none;
+    margin-left: 70%;
+}
+#firstSec{
+    background-color:rgb(16 15 15);
+    width: 100vw;
+}
+#hotel-pic{
+    width: 100%;
+    height: 100vh;
+
+}
+.form-control{
+    width: 80%;
+}
+.menu-bar{
+    font-size: xx-large;
+}
+.picture-cont{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2%;
+}
+
+#picture-text{
+    margin: auto;
+    margin-left: 62%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 12%;
+    align-content: center;
+    text-align: -webkit-right;
+}
+
+/* modal width was set to 100vw and would not let the modal to function */
+.modal-backdrop {
+    width: 0 !important;
+}
+
+.bi-list::before {
+    font-size: xx-large;
+}
+#myHumburger{
+    display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  width: 40px;             /* fixed width */
+  height: 40px;            /* fixed height */
+  padding: 0;  
+}
+
+
+#tempStuff{
+    align-items:self-end;
+    flex-direction: column;
+    bottom: 0px;
+    top: 95%;
+}
+
+#myIcon{
+    width: 50px;
+}
+
+#bookingSec{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(16 15 15);
+    overflow: hidden;
+}
+
+#myCardWidget{
+    width: 55%;
+    right: 10%;
+    margin-top: 14%;
+    background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(2, 159, 220, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+.aboutSectexts{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: tomato;
+}
+
+#thirdSec{
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(248, 248, 248);
+}
+
+.Myimage{
+    width: 100%;
+}
+
+.contAmenities{
+    position: relative;
+    align-items:anchor-center;
+    margin-top: 10%;
+    z-index: 1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.secBack{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+
+#weatherCols{
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.bi-list::before {
+    font-size:x-large;
+    color: rgb(153, 153, 153);
+}
+
+.hotelName{
+    color: #f64d04;
+}
+
+.offcanvas{
+    background-color: #000 !important;
+    color: white !important;
+}
+.nav-link:hover{
+    color: #f64d04;
+}
+
+.offBtn{
+    color: tomato;
+    border: #f64d04 solid 2px;
+}
+
+.btn{
+    --bs-btn-hover-border-color: none;
+}
+
+.bookScroll:hover{
+    color: aliceblue;
+}
+
+.addShadow{
+    filter: drop-shadow(2px 4px 6px black);
+}
+.aboutSecTextOther{
+    font-family: "Courgette", cursive;
+    color: white;
+}
+.offBtn1{
+    color: tomato;
+    border: #f64d04 solid 2px;
+    background-color: #242424 !important;
+}
+
+
+.modal-content {
+
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    background-color: #242424;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: 8px !important;
+    box-shadow: -1px 0px lightblue;
+}
+
+.btn-close {
+    --bs-btn-close-color: white;
+    --bs-btn-close-bg: url(https://cdn2.iconfinder.com/data/icons/web-kit-2/64/web_cross-512.png)
+}
